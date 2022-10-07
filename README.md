@@ -100,5 +100,3 @@ After comparing accuracy of all the models it turns out that Gradient Boosting a
 2.	it might possible that different values of categorical columns like ‘trestbps,’cp’,’restecg’, ‘slope’ and ‘thal’  have different impact on possibility of heart disease, so to get better and accurate results
 	      these columns can be explored further to check if ordinal encoding can 	  	      be applied on them.
 
-
-![image](https://user-images.githubusercontent.com/83147951/194668556-9ae78dc9-54c4-4f6a-a7be-1b360356054c.png)
