@@ -95,8 +95,7 @@ For ex : if we want all the predicted values above and equal to 0.8 are to be co
 13.	Conclusion :
 After comparing accuracy of all the models it turns out that Gradient Boosting and SVC models are performing better than others with almost 83% accuracy.
 
-14.		Future Improvements:
-1.	We can use more complicated model like XGboost for more accurate results.
-2.	it might possible that different values of categorical columns like ‘trestbps,’cp’,’restecg’, ‘slope’ and ‘thal’  have different impact on possibility of heart disease, so to get better and accurate results
-	      these columns can be explored further to check if ordinal encoding can 	  	      be applied on them.
+14.    Future Improvements:
+	a.We can use more complicated model like XGboost for more accurate results.
+	b.it might possible that different values of categorical columns like ‘trestbps,’cp’,’restecg’, ‘slope’ and ‘thal’  have different impact on 		possibility of heart disease, so to get better and accurate results these columns can be explored further to check if ordinal encoding can be 		applied on them.
 
