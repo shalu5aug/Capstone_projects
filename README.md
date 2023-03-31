@@ -49,20 +49,28 @@ This problem is a classification problem i.e to predict the presence of heart di
 	2.	column ‘hd’ represent different level of heart disease , here we are only predicting the heart disease and not the level so all the values 		   >=1 are replaced as 1 else 0.
 
 ### 2. EDA
+#### Numerical Columns: 
+
 <img width="361" alt="image" src="https://user-images.githubusercontent.com/83147951/194668593-fbb4239a-68bf-4a74-9ef2-2abcc1a295a8.png"> 
-Heart disease age group wise, according to the graph heart disease is present in age group mostly between 55-70
+Heart disease is present in the age group of mostly between 55-70
  
-<img width="411" alt="image" src="https://user-images.githubusercontent.com/83147951/194668643-5a0c5361-36fa-445c-bb25-faece8a68a08.png">
- Correlation between chest pain and heart disease:
-It shows heart disease in mostly those patients who have asymptomatic chest pain 
+ Distribution of numerical columns :
+ 
+ <img width="700" alt="image" src="https://user-images.githubusercontent.com/83147951/229240793-00e87a56-438b-4d7f-8d9d-0d241e5b754b.png">
+
+
+#### Categorical columns:
+ 
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/83147951/194668643-5a0c5361-36fa-445c-bb25-faece8a68a08.png">
+It shows that heart disease is present in mostly those patients who have asymptomatic chest pain
 
 <img width="250" alt="image" src="https://user-images.githubusercontent.com/83147951/194668663-7ca1261f-0aaa-4c26-9bee-5e250c6df38b.png">
-Looks like ‘flat’ slope is highly correlated to heart disease.
- 
-<img width="346" alt="image" src="https://user-images.githubusercontent.com/83147951/194668687-78dc89af-d375-4866-9782-c5f35cff1b38.png">
-The ‘reversable defect’ has high correlation with hd.
+Looks like ‘flat’ slope is highly correlated with presence of heart disease.
 
-<img width="288" alt="image" src="https://user-images.githubusercontent.com/83147951/194668711-9c17b3a7-0b51-4035-8338-2eee3ccab1ee.png">
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/83147951/194668687-78dc89af-d375-4866-9782-c5f35cff1b38.png">
+The ‘reversable defect’ has high correlation with hd. 
+
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/83147951/194668711-9c17b3a7-0b51-4035-8338-2eee3ccab1ee.png">
 All the type of restecg are equally correlated with hd
 
 ### 3. Feature Engineering:
