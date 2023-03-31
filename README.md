@@ -1,9 +1,8 @@
-# Capstone_projects
 
 ## Problem Statement : Predicting Heart disease from a set of attributes of patient’s health 
 
 There are various factors that can contribute to presence of heart disease like age, cholestrol level, chest pain , rest ECG etc.
-The dataset contains 14 such factors and a target field refers to presence of heart disease as '0' not present and '1' presence of heart disease.
+The dataset used to solve the problem contains 14 such factors and a target field refers to presence of heart disease '0' as not present and '1' as presence of heart disease.
 
 Link for the dataset: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 
